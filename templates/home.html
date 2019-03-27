@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+  <div class="home">
+
+
+
+
+
+
+
+
+
+
+<div class="slider">
+  
+
+<div id="slider">
+<figure>
+<img src="/static/assets/block1.b6fb939e413b8a23addbde6341ce6b56.jpg">
+<img src="/static/assets/slider2.jpg" >
+<img src="/static/assets/slider3.jpg" >
+</figure>
+</div>
+
+
+</div>
+
+<div class="divhome">
+
+<h1>Urpi</h1><p>Historia</p>
+
+<div class="hish">Este nombre toma como origen aquella reflexión emocional de la fundadora, Dalila Gamarra, ya que en un periodo de la historia del Perú, pobladores del interior del país, pasaban por una presión social y política ocasionado por...<br>
+<a href="#">Leer Más</a></div>
+
+<img class="imgder" src="/static/assets/joya.jpg">
+
+
+
+
+</div>
+   <br>    <br>    <br>    <br>
+<h1>LookBook</h1>
+
+<div class="lookbook">
+<a href="#"><div class="lookbookhijo"></div></a>
+<a href="#"><div class="lookbookhijo"></div></a>
+<a href="#"><div class="lookbookhijo"></div></a>
+<br>
+<a href="#"><div class="lookbookhijo"></div></a>
+<a href="#"><div class="lookbookhijo"></div></a>
+<a href="#"><div class="lookbookhijo"></div></a>
+<br>
+<a href="#"><div class="lookbookhijo"></div></a>
+<a href="#"><div class="lookbookhijo"></div></a>
+<a href="#"><div class="lookbookhijo"></div></a>
+
+
+
+
+</div>
+
+
+<div class="sustentable">
+  
+<a href=""><img class="susto" src="/static/assets/tienda.jpg"></a>
+<a href=""><img class="susto" src="/static/assets/sostenibilidad.jpg"></a>
+
+
+</div>
+
+
+
+<img class="alianzas" src="/static/assets/alianzas.jpg">
+
+
+    <div class="row">
+    <!--   <div class="col-sm-12 home__block1">
+        <div class="home--square">
+          <div class="home--content">
+            <div class="home--content-wrapper">
+              <div class="home--content-inner">
+                <h1>{% trans "Promo & Sale" context "Homepage title" %}</h1>
+                <h2>{% trans "from the Northpole" context "Homepage title" %}</h2>
+                  <a class="btn btn-secondary home__button" href="#">
+                    {% trans "Shop now" context "Homepage action" %}
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="row">
+    <!--   <div class="col-sm-12 col-md-6 home__block2">
+        <div class="home--square">
+          <div class="home--content">
+            <div class="home--content-wrapper">
+              <div class="home--content-inner">
+                <h1>{% trans "Size & Colours" context "Homepage title" %}</h1>
+                <a class="btn btn-secondary home__button" href="#">{% trans "Shop now" context "Homepage action" %}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 home__block3">
+        <div class="home--square">
+          <div class="home--content">
+            <div class="home--content-wrapper">
+              <div class="home--content-inner">
+                <h1>{% trans "LookBook" context "Homepage title" %}</h1>
+                <a class="btn btn-secondary home__button" href="#">{% trans "Ver LookBook" context "Homepage action" %}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+  
+ 
+
+    <!-- {% if products %}
+      <div class="home__featured">
+        <h2 class="text-center">{% trans "Featured products" context "Homepage title" %}</h2>
+        <div class="row">
+          {% include "product/_items.html" %}
+        </div>
+      </div> -->
+    {% endif %}
+    <script type="application/ld+json">{{ webpage_schema|safe }}</script>
+  </div>
+{% endblock %}
